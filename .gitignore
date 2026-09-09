@@ -1,0 +1,77 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ruff-cache-training/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+/.venv/
+/.venv-locateanything/
+venv/
+env/
+*.egg-info/
+
+# Local toolchains, third-party source, and caches
+/.tools/
+/.vendor/
+/.cache/
+/.tmp/
+/.huggingface/
+/model-cache/
+/.dependency-backups/
+
+# Frontend dependencies and generated output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+/frontend/coverage/
+
+# Local projects, imported images, and generated artifacts
+/backend/data/
+/datasets/
+/exports/
+/training-runs/
+/ultralytics-runs/
+/runs/
+/checkpoints/
+/weights/
+
+# Locally downloaded or generated model artifacts
+/yolo*.pt
+/backend/yolo*.pt
+/*.pth
+/*.onnx
+/*.engine
+/*.safetensors
+/pytorch_model*.bin
+
+# Runtime logs and process state
+/logs/
+/tmp/
+/temp/
+*.log
+*.pid
+
+# Environment files and secrets
+.env
+.env.*
+!**/.env.example
+
+# IDE and editor state
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
