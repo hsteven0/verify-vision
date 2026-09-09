@@ -1,0 +1,17 @@
+# Pinned dependencies. PyTorch is installed from the CUDA wheel index.
+fastapi==0.141.1
+packaging==26.3
+pillow==12.2.0
+pydantic==2.13.4
+python-multipart==0.0.32
+uvicorn[standard]==0.52.3
+httpx==0.28.1
+pytest==9.1.1
+ruff==0.16.3
+lmdb==1.7.5
+numpy==2.4.4
+opencv-python-headless==4.11.0.86
+peft==0.20.0
+transformers==4.57.1
+ultralytics==8.4.119
+decord==0.6.0; sys_platform == "linux"

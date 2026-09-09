@@ -1,0 +1,4 @@
+screenshots/*.png binary
+screenshots/*.gif binary
+scripts/windows-launcher/*.ico binary
+VerifyVision.exe binary

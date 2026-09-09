@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verifyvision-backend"
+version = "1.0.0"
+description = "FastAPI backend for VerifyVision"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi==0.141.1",
+  "packaging==26.3",
+  "pillow==12.2.0",
+  "pydantic==2.13.4",
+  "python-multipart==0.0.32",
+  "uvicorn[standard]==0.52.3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx==0.28.1",
+  "pytest==9.1.1",
+  "ruff==0.16.3",
+]
+locateanything = [
+  "decord==0.6.0; sys_platform == 'linux'",
+  "lmdb==1.7.5",
+  "numpy==2.4.4",
+  "opencv-python-headless==4.11.0.86",
+  "peft==0.20.0",
+  "transformers==4.57.1",
+  "torch==2.12.1",
+  "torchvision==0.27.1",
+]
+training = [
+  "ultralytics==8.4.119",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.setuptools.package-data]
+app = ["VERSION"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app", "tests"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

@@ -1,0 +1,63 @@
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #111214;
+  --color-pane: #17181b;
+  --color-surface: #1d1f22;
+  --color-raised: #25272b;
+  --color-border: #34373c;
+  --color-border-soft: #292b2f;
+  --color-text: #d9dadd;
+  --color-text-strong: #f4f4f5;
+  --color-text-muted: #96999f;
+  --color-signal: #6e96d8;
+  --color-action: #3867aa;
+  --color-signal-soft: #1d2632;
+  --color-canvas: #0a0b0c;
+  --color-accepted: #55b68c;
+  --color-adjusted: #d5a64e;
+  --color-rejected: #d86f6d;
+  --color-human: #9a83cf;
+  --color-floating-solid: #17181b;
+  --shadow-overlay: 0 18px 50px rgb(0 0 0 / 38%);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-bg: #f0f0f1;
+  --color-pane: #fafafa;
+  --color-surface: #f4f4f5;
+  --color-raised: #e8e8ea;
+  --color-border: #d0d1d3;
+  --color-border-soft: #e1e1e3;
+  --color-text: #323337;
+  --color-text-strong: #18191b;
+  --color-text-muted: #6e7076;
+  --color-signal: #315f9f;
+  --color-action: #315f9f;
+  --color-signal-soft: #e7ebf2;
+  --color-canvas: #d8d9dc;
+  --color-accepted: #337c5e;
+  --color-adjusted: #9b6e1c;
+  --color-rejected: #a74b49;
+  --color-human: #6f59a6;
+  --color-floating-solid: #fafafa;
+  --shadow-overlay: 0 18px 50px rgb(25 31 40 / 18%);
+}
+
+:root {
+  --radius-small: 5px;
+  --radius-medium: 8px;
+  --radius-large: 10px;
+  --header-height: 58px;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
