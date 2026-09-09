@@ -76,3 +76,7 @@ Rebuild the Windows launcher with `.\scripts\windows-launcher\build.ps1`.
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) — detector training and testing
 
 LocateAnything-3B is provided under NVIDIA's non-commercial license.
+
+## License
+
+VerifyVision is licensed under the [GNU AGPL v3.0](LICENSE).
