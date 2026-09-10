@@ -1,6 +1,6 @@
 # VerifyVision
 
-VerifyVision is a local tool for building and checking object-detection datasets with [NVIDIA LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B). Tell it what to find in an image, review the boxes it suggests, then export the dataset or train a YOLO model from it.
+VerifyVision is a local computer vision data labeling and dataset verification tool for building and checking object detection datasets with [NVIDIA LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B). Tell it what to find in an image, review the boxes it suggests, then export the dataset or train a YOLO model from it.
 
 Inference, training, projects, and exports stay on the local machine.
 
