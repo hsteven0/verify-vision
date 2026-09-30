@@ -42,7 +42,7 @@ jobs:
           python -m ruff format --check .
 
       - name: Test (pytest)
-        run: python -m pytest tests -q
+        run: python -m pytest tests
 
   frontend:
     name: Frontend
